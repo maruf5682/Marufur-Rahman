@@ -970,3 +970,37 @@ footer ul li:hover {
         justify-content: center;
     }
 }
+
+
+
+/* ================small Device============================== */
+
+@media screen and (max-width:400px) {
+    .header_container {
+        flex-direction: column;
+    }
+
+    .header_left_img img {
+        width: 50%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .course_container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+    }
+    .faq h4 {
+        font-size: 0.7rem;
+    }
+    
+    .faq_icon {
+        align-self: flex-start;
+        font-size: 1rem;
+    }
+    
+    .faq p {
+        font-size: 0.8rem;
+    }
+}
